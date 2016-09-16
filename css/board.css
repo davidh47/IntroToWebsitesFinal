@@ -9,10 +9,16 @@
   z-index: -10;
 }
 
+.board-container{
+width: 80%;
+height: auto;
+margin: auto;
+}
+
 img.board-image{
-  width: 20%;
-  height: auto;
-  border-radius: 150px / 50px;
+  width: auto;
+  height: 100px;
+  border-radius: 80px / 50px;
   float: left;
   margin-top: 10px;
   margin-left: 10px;
@@ -21,12 +27,25 @@ img.board-image{
 }
 
 .board-item{
-  width: 60%;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: auto;
-  margin-bottom: 10px;
+  width: 100%;
+  margin: 10px;
   background-color: #d6d6c2;
   padding: 1em;
   float: left;
+}
+
+.board-separator{
+  border: 0;
+  height: 1px;
+  background-color: #bfbfbf;
+  clear: both;
+}
+
+.board-horiz-separator{
+  border: 0;
+  width: 1px;
+  height: 110px;
+  background-color: #bfbfbf;
+  float: left;
+  margin: 0 10px 0 10px;
 }

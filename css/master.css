@@ -66,9 +66,35 @@ li a:hover {
     border: 1px solid black;
 }
 
+.rightside-feature {
+  width: 60%;
+  height: 964px;
+  float: left;
+  margin: 10px 0 10px 30px;
+  overflow: hidden;
+}
+
+.rightside-feature:img {
+  width: 100%;
+}
+
 #index-content{
   width: 80%;
   margin: auto;
+}
+
+.top-feature{
+  width: 60%;
+  height: auto;
+  clear: both;
+}
+
+
+
+.leftside-feature{
+  width: 30%;
+  float: left;
+  margin: 10px;
 }
 
 .feature{
@@ -76,7 +102,7 @@ li a:hover {
   height: 300px;
   background-color: #d6d6c2;
   float: left;
-  margin: 1em 1em 1em 0em;
+  margin: 0 0 20px 0;
   padding: 0em 0.5em 0.5em 0.5em;
   overflow: hidden;
 }

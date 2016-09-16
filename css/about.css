@@ -9,21 +9,24 @@
   z-index: -1;
 }
 
-#about-content{
+.about-content{
   width: 80%;
+  height: auto;
   margin: auto;
   background-color: #d6d6c2;
   padding: 1em;
 }
 
-#about-image{
+.about-image{
   width: 80%;
-  padding: 1em;
-  margin: auto;
+  margin: 0 0 5px 0;
+  float: left;
 }
 
-img.displayed{
-  display: block;
-  margin-right: inherit;
-  margin-left: inherit;
+.about-separator{
+  border: 0;
+  height: 1px;
+  background-color: #bfbfbf;
+  clear: both;
+  margin-top: 5px;
 }
